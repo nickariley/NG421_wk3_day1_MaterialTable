@@ -6,6 +6,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MaterialTableComponent } from './material-table/material-table.component';
 import { MatInputModule } from '@angular/material/input';
+import { MatSort, MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MatInputModule } from '@angular/material/input';
     BrowserAnimationsModule,
     MatTableModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
